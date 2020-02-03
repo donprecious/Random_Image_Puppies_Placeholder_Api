@@ -1,0 +1,48 @@
+﻿Task
+PlacePuppies
+
+
+We want to build an image placeholder like https://placeholder.com. We should be able to have a url like https://via.placeholder.com/650x750 which will create a placeholder depending on the height and width. This will be useful for especially for developers who just want to keep a placeholder why developing UIs. In our case, the placeholder should contains images of puppies, but the width and height should always be applied each time the route is hit and return random images of puppies.
+
+
+
+Requirements
+
+
+The app should be version controlled.
+
+
+
+Have a route that looks similar to https://placepuppies.com/{width}/{height}
+
+
+
+The route should show random images all the time.
+
+
+
+You can use a database if there is a need for it.
+
+
+
+You a cache to optimize the app such that an already fetched image with 
+Specific image and height is not re-fetched.
+
+
+
+Deploy the app
+
+
+
+Write unit tests.
+
+
+Use language framework of your choice. 
+
+The Dog API - API Key
+d2a9f1fe-2de6-4a2a-baa7-083dd9358984
+ 
+
+  headers[“x-api-key”] = "ABC123"
+
+  https://res.cloudinary.com/demo/image/fetch/w_900,h_600,c_fill,f_png/https://miro.medium.com/max/2998/1*eUjxyuQjf-Wwyy3PiSaBUQ.png

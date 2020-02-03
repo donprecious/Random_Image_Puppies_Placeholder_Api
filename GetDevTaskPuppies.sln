@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetDevTaskPuppies", "GetDevTaskPuppies\GetDevTaskPuppies.csproj", "{C2CB492C-949A-4B46-8419-BFCBD234A4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDevTaskPuppies.Test", "GetDevTaskPuppies.Test\GetDevTaskPuppies.Test.csproj", "{B67F59CF-0E5A-4DFC-82BC-F0D16B98572D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2CB492C-949A-4B46-8419-BFCBD234A4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CB492C-949A-4B46-8419-BFCBD234A4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CB492C-949A-4B46-8419-BFCBD234A4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CB492C-949A-4B46-8419-BFCBD234A4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67F59CF-0E5A-4DFC-82BC-F0D16B98572D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67F59CF-0E5A-4DFC-82BC-F0D16B98572D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67F59CF-0E5A-4DFC-82BC-F0D16B98572D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67F59CF-0E5A-4DFC-82BC-F0D16B98572D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF603399-A74E-484A-8185-2DF00404C1EE}
+	EndGlobalSection
+EndGlobal
