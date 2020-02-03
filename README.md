@@ -2,6 +2,7 @@
 This Project Generates Random images of puppies of different size which can be used as a place holder 
 
 ``
+
 Default End Point 
 \ 
 return image of width 300 and height 300 
