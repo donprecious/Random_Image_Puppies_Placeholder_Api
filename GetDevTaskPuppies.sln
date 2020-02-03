@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetDevTaskPuppies", "GetDevTaskPuppies\GetDevTaskPuppies.csproj", "{C2CB492C-949A-4B46-8419-BFCBD234A4A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDevTaskPuppies.Test", "GetDevTaskPuppies.Test\GetDevTaskPuppies.Test.csproj", "{B67F59CF-0E5A-4DFC-82BC-F0D16B98572D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetDevTaskPuppies.Test", "GetDevTaskPuppies.Test\GetDevTaskPuppies.Test.csproj", "{B67F59CF-0E5A-4DFC-82BC-F0D16B98572D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{10332F31-9726-4BA0-9B02-9E610F10C848}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2CB492C-949A-4B46-8419-BFCBD234A4A2} = {10332F31-9726-4BA0-9B02-9E610F10C848}
+		{B67F59CF-0E5A-4DFC-82BC-F0D16B98572D} = {10332F31-9726-4BA0-9B02-9E610F10C848}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF603399-A74E-484A-8185-2DF00404C1EE}

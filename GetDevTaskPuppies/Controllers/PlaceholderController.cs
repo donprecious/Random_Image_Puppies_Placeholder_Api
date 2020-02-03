@@ -19,7 +19,7 @@ namespace GetDevTaskPuppies.Controllers
     {
         
         [Cached(60)]
-        [HttpGet("{width}/{height}")]
+        [HttpGet("{width?}/{height?}")]
         public async Task<IActionResult> Get(int width =300, int height=300)
         {
             var dogApi = RestService.For<IDogApi>(Constants.BaseUrl);
